@@ -1,0 +1,31 @@
+{
+  "name": "volvo-cars-cucumber-wdio-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guru-com/volvo-cars-cucumber-wdio-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guru-com/volvo-cars-cucumber-wdio-docker/issues"
+  },
+  "homepage": "https://github.com/guru-com/volvo-cars-cucumber-wdio-docker#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.5.3"
+  },
+  "devDependencies": {
+    "@log4js-node/log4js-api": "^1.0.2",
+    "@rpii/wdio-html-reporter": "^6.3.2",
+    "@wdio/cucumber-framework": "^7.5.3",
+    "@wdio/dot-reporter": "^7.5.3",
+    "@wdio/local-runner": "^7.5.4",
+    "@wdio/spec-reporter": "^7.5.3",
+    "wdio-docker-service": "^3.1.2"
+  }
+}

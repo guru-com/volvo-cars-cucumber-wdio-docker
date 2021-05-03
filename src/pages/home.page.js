@@ -48,6 +48,16 @@ class HomePage extends Page {
 
     }
 
+    async saveElement (element,type) {
+        const webElement = await (await (element));
+        await browser.saveElement (webElement,type);
+    }
+
+    async verifyElement (element,type) {
+        const webElement = await (await (element));
+        expect(await browser.checkElement(webElement,type)).to.equal(0);
+    }
+
     /**s
      * overwrite specifc options to adapt it to page object
      */

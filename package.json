@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/guru-com/volvo-cars-cucumber-wdio-docker#readme",
   "dependencies": {
-    "@wdio/cli": "^7.5.3"
+    "@wdio/cli": "^7.5.3",
+    "chai": "^4.3.4",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
   },
   "devDependencies": {
     "@log4js-node/log4js-api": "^1.0.2",

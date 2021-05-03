@@ -1,4 +1,4 @@
-const { Given, When, Then } = require('@cucumber/cucumber');
+const { Given} = require('@cucumber/cucumber');
 const HomePage = require('../pages/home.page');
 
 const pages = {
@@ -7,5 +7,5 @@ const pages = {
 
 Given(/^I am on the (\w+) page$/, async (page) => {
     await pages[page].open();
-    browser.maximizeWindow()
+    await browser.maximizeWindow();
 });

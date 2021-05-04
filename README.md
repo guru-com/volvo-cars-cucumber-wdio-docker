@@ -32,13 +32,17 @@ services: ['chromedriver',
         ['image-comparison']
         
  Contributing:
- 
+
  Feature files path - src/features
+
  Step definitions path - src/stepDef
+
  Page Objects - src/pages
+ 
  
  Reporting:
  
  Generates html reports in reports folder
+
  Generates master report/master suite html report in reports folder
 
